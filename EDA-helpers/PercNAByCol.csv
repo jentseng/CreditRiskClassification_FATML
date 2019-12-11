@@ -1,0 +1,142 @@
+,% Missing,Treatment,Person,Comments
+COMMONAREA_MEDI,69.87229725,Drop,Jenny,"almost perfectly correlated with COMMONAREA_AVG (0.99)
+can likely drop or mean (pretty small, probably slightly more rep than 0)"
+COMMONAREA_AVG,69.87229725,Fill with mean,Jenny,can likely drop or derive a binary variable
+COMMONAREA_MODE,69.87229725,Drop,Jenny,"almost perfectly correlated with COMMONAREA_AVG (0.97)
+can likely drop or derive a binary variable"
+NONLIVINGAPARTMENTS_AVG,69.43296337,,Michael,
+NONLIVINGAPARTMENTS_MODE,69.43296337,,Michael,
+NONLIVINGAPARTMENTS_MEDI,69.43296337,,Michael,
+FONDKAPREMONT_MODE,68.38617155,,Tony,
+LIVINGAPARTMENTS_AVG,68.35495316,,Tony,
+LIVINGAPARTMENTS_MODE,68.35495316,,Tony,
+LIVINGAPARTMENTS_MEDI,68.35495316,,Catherine,
+FLOORSMIN_AVG,67.84862981,,Catherine,
+FLOORSMIN_MODE,67.84862981,,Catherine,
+FLOORSMIN_MEDI,67.84862981,,Karan,
+YEARS_BUILD_AVG,66.49778382,,Karan,
+YEARS_BUILD_MEDI,66.49778382,,Karan,
+YEARS_BUILD_MODE,66.49778382,Mean,Jenny,"97% correlated with YEARS_BUILD_AVG and MEDI
+Skewed to the left actually - more older ones? Probably just didn't enter"
+OWN_CAR_AGE,65.99081008,Fill with 0's…,Jenny,"No highly correlated columns
+No cars? So 0? Tere are >7k 0's, but this is the most likely reason (column is not normalized so 0 means 0 yo)
+Would this mean recent car though…?"
+LANDAREA_MEDI,59.37673774,Mean,Jenny,"99% correlated with avg; 98% with mode
+highly skewed to the right"
+LANDAREA_MODE,59.37673774,,Michael,
+LANDAREA_AVG,59.37673774,,Michael,
+BASEMENTAREA_MODE,58.51595553,,Michael,
+BASEMENTAREA_MEDI,58.51595553,,Tony,
+BASEMENTAREA_AVG,58.51595553,,Tony,
+EXT_SOURCE_1,56.38107255,,Tony,
+NONLIVINGAREA_MEDI,55.17916432,,Catherine,
+NONLIVINGAREA_MODE,55.17916432,,Catherine,
+NONLIVINGAREA_AVG,55.17916432,,Catherine,
+ELEVATORS_AVG,53.29597966,,Karan,
+ELEVATORS_MEDI,53.29597966,,Karan,
+ELEVATORS_MODE,53.29597966,,Karan,
+WALLSMATERIAL_MODE,50.84078293,"""Others""",Jenny,"Categorical - can fillna as ""Others"""
+APARTMENTS_MODE,50.74972928,Median,Jenny,"97% with avg, 98% with median
+Tbh not sure what this column is for
+Somewhat skewed to the right; mean is a little bit towards 75% so perhaps median"
+APARTMENTS_MEDI,50.74972928,Drop,Jenny,99.5% with avg; 98% with mode
+APARTMENTS_AVG,50.74972928,,Michael,
+ENTRANCES_MODE,50.34876801,,Michael,
+ENTRANCES_MEDI,50.34876801,,Michael,
+ENTRANCES_AVG,50.34876801,,Tony,
+LIVINGAREA_MEDI,50.19332642,,Tony,
+LIVINGAREA_MODE,50.19332642,,Tony,
+LIVINGAREA_AVG,50.19332642,,Catherine,
+HOUSETYPE_MODE,50.17609126,,Catherine,
+FLOORSMAX_MEDI,49.76082156,,Catherine,
+FLOORSMAX_MODE,49.76082156,,Karan,
+FLOORSMAX_AVG,49.76082156,,Karan,
+YEARS_BEGINEXPLUATATION_AVG,48.78101922,,Karan,
+YEARS_BEGINEXPLUATATION_MEDI,48.78101922,Drop,Jenny,"96% correlated with mode; 99% with avg
+Not sure what expluatation means
+VERY skewed to the left
+tbh doesn't seem to have a lot of variance"
+YEARS_BEGINEXPLUATATION_MODE,48.78101922,Drop,Jenny,96% correlated with medi; 97% with avg
+TOTALAREA_MODE,48.26851722,Mean,Jenny,"Interestingly: 92% with ""Livingarea_avg"" and ""Livingarea_medi""
+No TotalArea avg or medi; can drop this if livingarea has fewer missing values
+Skewed to the right, but pretty even in each bucket"
+EMERGENCYSTATE_MODE,47.39830445,,Michael,
+OCCUPATION_TYPE,31.34554536,,Michael,
+EXT_SOURCE_3,19.82530706,,Michael,
+ORGANIZATION_TYPE,18.00716072,,Tony,
+AMT_REQ_CREDIT_BUREAU_YEAR,13.50163084,,Tony,Did they forget to put in 0's? or just forget to put in in general?
+AMT_REQ_CREDIT_BUREAU_DAY,13.50163084,,Tony,
+AMT_REQ_CREDIT_BUREAU_QRT,13.50163084,,Catherine,
+AMT_REQ_CREDIT_BUREAU_WEEK,13.50163084,,Catherine,
+AMT_REQ_CREDIT_BUREAU_HOUR,13.50163084,,Catherine,
+AMT_REQ_CREDIT_BUREAU_MON,13.50163084,,Karan,
+NAME_TYPE_SUITE,0.420147572,,Karan,
+DEF_60_CNT_SOCIAL_CIRCLE,0.332020643,,Karan,
+OBS_30_CNT_SOCIAL_CIRCLE,0.332020643,Fill with 0's,Jenny,"almost 100% correlated with OBS_60_CNT, 33% cc with DEF_30
+VERY skewed to the right - can probably just fill with 0's (also would make sense)"
+DEF_30_CNT_SOCIAL_CIRCLE,0.332020643,Fill with 0's,Jenny,"86% with DEF_60
+VERY skewed to the right - can probably just fill with 0's"
+OBS_60_CNT_SOCIAL_CIRCLE,0.332020643,Drop,Jenny,almost 100% with OBS_30
+EXT_SOURCE_2,0.214626469,,Michael,
+AMT_GOODS_PRICE,0.09040327,,Michael,
+AMT_ANNUITY,0.003902299,,Michael,
+CODE_GENDER,0.001300766,,Tony,
+CNT_FAM_MEMBERS,0.000650383,,Tony,
+DAYS_LAST_PHONE_CHANGE,0.000325192,,Tony,
+REGION_POPULATION_RELATIVE,0,,,
+NAME_INCOME_TYPE,0,,,
+FLAG_EMAIL,0,,,
+FLAG_PHONE,0,,,
+FLAG_CONT_MOBILE,0,,,
+FLAG_WORK_PHONE,0,,,
+FLAG_EMP_PHONE,0,,,
+FLAG_MOBIL,0,,,
+NAME_EDUCATION_TYPE,0,,,
+NAME_FAMILY_STATUS,0,,,
+NAME_HOUSING_TYPE,0,,,
+TARGET,0,,,
+NAME_CONTRACT_TYPE,0,,,
+DAYS_EMPLOYED,0,,,
+DAYS_REGISTRATION,0,,,
+DAYS_ID_PUBLISH,0,,,
+AMT_CREDIT,0,,,
+AMT_INCOME_TOTAL,0,,,
+CNT_CHILDREN,0,,,
+REGION_RATING_CLIENT,0,,,
+FLAG_OWN_REALTY,0,,,
+FLAG_OWN_CAR,0,,,
+DAYS_BIRTH,0,,,
+NonNA_Percentage,0,,,
+REGION_RATING_CLIENT_W_CITY,0,,,
+WEEKDAY_APPR_PROCESS_START,0,,,
+FLAG_DOCUMENT_21,0,,,
+FLAG_DOCUMENT_20,0,,,
+FLAG_DOCUMENT_19,0,,,
+FLAG_DOCUMENT_18,0,,,
+FLAG_DOCUMENT_17,0,,,
+FLAG_DOCUMENT_16,0,,,
+FLAG_DOCUMENT_15,0,,,
+FLAG_DOCUMENT_14,0,,,
+FLAG_DOCUMENT_13,0,,,
+FLAG_DOCUMENT_12,0,,,
+FLAG_DOCUMENT_11,0,,,
+FLAG_DOCUMENT_10,0,,,
+FLAG_DOCUMENT_9,0,,,
+FLAG_DOCUMENT_8,0,,,
+FLAG_DOCUMENT_7,0,,,
+FLAG_DOCUMENT_6,0,,,
+FLAG_DOCUMENT_5,0,,,
+FLAG_DOCUMENT_4,0,,,
+FLAG_DOCUMENT_3,0,,,
+FLAG_DOCUMENT_2,0,,,
+LIVE_CITY_NOT_WORK_CITY,0,,,
+REG_CITY_NOT_WORK_CITY,0,,,
+REG_CITY_NOT_LIVE_CITY,0,,,
+LIVE_REGION_NOT_WORK_REGION,0,,,
+REG_REGION_NOT_WORK_REGION,0,,,
+REG_REGION_NOT_LIVE_REGION,0,,,
+HOUR_APPR_PROCESS_START,0,,,
+SK_ID_CURR,0,,,
+,,,,
+,,,,
+,,,,"There is a LOT of correlations everywhere in the dataset… once we drop the initial set of too many missing values, perhaps should still avoid regression…. Or would need to review the correlations very closely"
