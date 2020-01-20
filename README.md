@@ -2,9 +2,7 @@
 ### Authors: Catherine Miao, Karan Palsani, Michael Sparkman, Jenny Tseng, Tony (Junhong) Xu
 ### FATML project focused on fairness and explainability of credit default risk modeling
 
-This repository contains our work in building fair and explainable models that predict credit default risks. The original dataset was obtained from Kaggle's [Home Credit Default Risk competition](https://www.kaggle.com/c/home-credit-default-risk/overview). Note we did not upload these files to GitHub as it exceeds the storage limit available for a free GitHub account. To run our code, one would need to download the dataset from Kaggle and store them in a folder named home-credit-default-risk.
-
-All csv's generated for modeling are stored in the [cleaned_tables](https://github.com/jentseng/Fall19_FATML_Project/tree/master/cleaned_tables) folder. CSV's generated for exploratory data analysis (EDA) are in the [EDA-helpers](https://github.com/jentseng/Fall19_FATML_Project/tree/master/EDA-helpers) folder.
+This repository contains our work in building fair and explainable models that predict credit default risks. The original dataset was obtained from Kaggle's [Home Credit Default Risk competition](https://www.kaggle.com/c/home-credit-default-risk/overview). For the purpose of running the code, all csv's generated for modeling were stored in a folder named cleaned_tables. CSV's generated for exploratory data analysis (EDA) were stored in a folder named EDA-helpers.
 
 The Jupyter notebooks are numbered in the sequence we approached the problem and described below:
 
