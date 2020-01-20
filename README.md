@@ -14,3 +14,5 @@ The Jupyter notebooks are numbered in the sequence we approached the problem and
 3. Building a BRCG and a GLRM models (both in IBM's AIX 360 toolkit) based on the SMOTED top 20 features found from a Random Forest (RF) model
 4. Building a RF and an XGBoosting models based on the SMOTED top 20 features found from the RF model found from #3 above; explaining the models with SHAP
 5. Building various Decision Tree, Logistic Regression, and Random Forest models to compare with the models built in #3 and #4.
+
+For more detailed descsription of the project, see [here](https://medium.com/@tonyxu_71807/ensuring-fairness-and-explainability-in-credit-default-risk-modeling-shap-ibm-tool-kit-aix-360-bfc519c191bf?).
